@@ -60,3 +60,7 @@ def edit_article(request, article_id):
 	
 
 	return render(request, 'edit_article.html', context)
+
+	###########---MY_list----###################################
+def my_article_list(request):
+	return render(request, "my_articles_list.html")
